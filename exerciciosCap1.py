@@ -28,14 +28,7 @@ def vetorCombinacaoSomatorio(vetorU, alpha):
     count = 0
     while count <= alpha-1:
         for i in range(0, len(vetorU)):
-            # if count == alpha-1:
-            #     pass
-            # else:
-            #     count += 1
             vetorCombinacao[i] += count * vetorU[i]
-            # vetorProduto.append(produto)
-        # for j in range(0, len(vetorProduto)):
-        #     j += count * j
         count += 1
 
     return vetorCombinacao
